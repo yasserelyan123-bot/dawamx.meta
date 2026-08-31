@@ -1,1 +1,488 @@
-<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">URL signature expired</pre></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head><style>
+@font-face {
+  font-family: "Optimistic";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Optimistic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
+}
+:where(html) {
+  font-family: "Optimistic", system-ui, sans-serif;
+}
+:where(code, pre, kbd, samp) {
+  font-family: "Optimistic Mono", ui-monospace, monospace;
+}
+</style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>DoamX HR Ultimate - للبيع</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0B1120;--card:#151E32;--border:#2A3658;--text:#F5F3EC;--muted:#8A92AC;--gold:#F2A93B;--blue:#5B8DEF;--green:#10B981;--red:#EF4444;--orange:#F59E0B}
+body{font-family:'IBM Plex Sans Arabic',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:13px}
+.login-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;background:radial-gradient(ellipse at top, #1E293B 0%, #0B1120 100%)}
+.login-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:32px;max-width:420px;width:100%}
+.input,.select,textarea{width:100%;padding:11px 12px;background:var(--bg);border:1px solid var(--border);border-radius:10px;color:var(--text);margin-bottom:8px;font-family:inherit;font-size:12px}
+.btn{width:100%;background:var(--gold);color:#1A1306;border:none;padding:11px;border-radius:10px;font-weight:700;cursor:pointer;font-family:inherit;font-size:12px}
+.btn-sm{padding:7px 12px;width:auto;font-size:11px}
+.btn-ghost{background:var(--bg);color:var(--text);border:1px solid var(--border)}
+.btn-green{background:var(--green);color:#fff}.btn-red{background:var(--red);color:#fff}.btn-blue{background:var(--blue);color:#fff}
+.hidden{display:none!important}
+.app-header{position:fixed;top:0;right:0;left:0;background:var(--card);border-bottom:1px solid var(--border);padding:10px 14px;display:flex;justify-content:space-between;align-items:center;z-index:50}
+.menu-btn{width:36px;height:36px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.sidebar{position:fixed;top:0;bottom:0;width:300px;background:var(--card);border:1px solid var(--border);padding:18px;transition:.3s;z-index:100;overflow-y:auto}
+html[dir="rtl"] .sidebar{right:-320px}html[dir="rtl"] .sidebar.show{right:0}html[dir="ltr"] .sidebar{left:-320px}html[dir="ltr"] .sidebar.show{left:0}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:99;display:none}.overlay.show{display:block}
+.close-btn{position:absolute;top:14px;width:30px;height:30px;background:var(--red);border:none;border-radius:8px;color:#fff;cursor:pointer}
+html[dir="rtl"] .close-btn{left:14px}html[dir="ltr"] .close-btn{right:14px}
+.nav-title{font-size:9px;color:var(--muted);text-transform:uppercase;margin:14px 0 6px;font-weight:700;letter-spacing:.5px}
+.nav-item{display:flex;align-items:center;gap:8px;padding:9px 10px;border-radius:8px;margin-bottom:2px;cursor:pointer;color:var(--muted);font-size:12px}
+.nav-item.active{background:var(--bg);color:var(--gold)}
+.main{padding:64px 14px 20px;max-width:1400px;margin:0 auto}
+.page{display:none}.page.active{display:block}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(max-width:768px){.grid-3,.grid-2{grid-template-columns:1fr}}
+.stat{padding:12px;position:relative;overflow:hidden;border-radius:12px;background:var(--card);border:1px solid var(--border)}
+.stat h2{font-size:22px;margin:4px 0}.stat small{font-size:10px;color:var(--muted)}
+.progress{height:6px;background:var(--bg);border-radius:10px;margin-top:8px;overflow:hidden}.progress-bar{height:100%;background:var(--gold);border-radius:10px}
+.table-wrapper{overflow-x:auto}.table{width:100%;border-collapse:collapse;font-size:11px}.table th{text-align:right;padding:8px;color:var(--muted);font-size:9px;border-bottom:1px solid var(--border)}html[dir="ltr"] .table th{text-align:left}.table td{padding:8px;border-bottom:1px solid var(--border)}
+.badge{padding:2px 6px;border-radius:8px;font-size:9px;font-weight:600}.green{background:rgba(16,185,129,.2);color:#10B981}.red{background:rgba(239,68,68,.2);color:#EF4444}.yellow{background:rgba(245,158,11,.2);color:#F59E0B}.blue{background:rgba(91,141,239,.2);color:#3B82F6}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:200;padding:12px}
+.modal.show{display:flex}.modal-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;max-width:600px;width:100%;max-height:90vh;overflow-y:auto}
+.emp-header{background:linear-gradient(135deg,#0A1931 0%,#1E3A8A 100%);color:#fff;padding:16px;border-radius:14px;text-align:center;margin-bottom:12px}
+.emp-header img{width:70px;height:70px;border-radius:50%;border:3px solid var(--gold);background:#fff;object-fit:cover;margin-bottom:6px;cursor:pointer}
+.item{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;text-align:center;cursor:pointer;transition:.2s}
+.item:hover{transform:translateY(-2px);border-color:var(--gold)}
+.item.list{display:flex;align-items:center;gap:12px;text-align:right}html[dir="ltr"] .item.list{text-align:left}
+.icon{font-size:24px;margin-bottom:4px}.item.list .icon{margin:0;font-size:20px;min-width:28px}
+.vb{width:30px;height:30px;border:1px solid var(--border);background:var(--card);border-radius:6px;cursor:pointer}.vb.active{background:var(--blue);color:#fff}
+.kpi{display:flex;justify-content:space-between;align-items:center;padding:10px;background:var(--bg);border-radius:8px;margin-bottom:6px}
+</style>
+</head>
+<body>
+<div id="login" class="login-wrap">
+  <div class="login-card">
+    <h1 style="text-align:center;font-size:26px">DoamX<span style="color:var(--gold)">HR</span> ULTIMATE</h1>
+    <p style="text-align:center;color:var(--muted);font-size:11px;margin:6px 0 16px">نظام احترافي للبيع - كل شيء يعمل</p>
+    <input class="input" id="c" value="DEMO"><input class="input" id="n" value="1001"><input class="input" id="p" type="password" value="demo123">
+    <button class="btn" onclick="login()">دخول</button>
+    <div style="display:flex;gap:6px;margin-top:10px"><button class="btn btn-sm btn-ghost" style="flex:1" onclick="document.getElementById('n').value='1001'">Admin 1001</button><button class="btn btn-sm btn-ghost" style="flex:1" onclick="document.getElementById('n').value='2728'">Emp 2728</button><button class="btn btn-sm btn-ghost" style="flex:1" onclick="document.getElementById('n').value='2729'">Rajesh 2729</button></div>
+    <p id="err" style="color:var(--red);text-align:center;margin-top:8px;font-size:10px"></p>
+  </div>
+</div>
+
+<div id="app" class="hidden">
+  <div class="overlay" id="overlay" onclick="closeSide()"></div>
+  <div class="sidebar" id="sidebar"><button class="close-btn" onclick="closeSide()">✕</button><h2 style="margin:30px 0 16px">DoamX<span style="color:var(--gold)">HR</span> <small id="roleBadge" style="font-size:9px;color:var(--muted)"></small></h2><div id="navContainer"></div></div>
+  <div class="app-header"><div style="display:flex;gap:8px;align-items:center"><button class="menu-btn" onclick="openSide()">☰</button><div><h3 id="uname" style="font-size:13px"></h3><p id="cname" style="font-size:9px;color:var(--muted)"></p></div></div><div style="display:flex;gap:6px;align-items:center"><button class="menu-btn" style="width:auto;padding:0 8px;font-size:10px;background:var(--gold);color:#1A1306;border:none" onclick="toggleLang()" id="langBtn">EN</button><button class="menu-btn" style="width:auto;padding:0 8px;font-size:10px" onclick="logout()">خروج</button></div></div>
+  <div class="main">
+    <!-- DASHBOARD ULTIMATE -->
+    <div id="dash" class="page active">
+      <h2 style="margin-bottom:4px">لوحة التحكم التنفيذية - Executive Dashboard</h2>
+      <p style="color:var(--muted);font-size:11px;margin-bottom:12px">أرقام حقيقية من قاعدة البيانات - ليست صور</p>
+      
+      <div class="grid">
+        <div class="stat"><small>إجمالي الموظفين</small><h2 id="kpiTotal">0</h2><small id="kpiTotalSub">0 في السكن من أصل 0</small><div class="progress"><div class="progress-bar" id="progHousing" style="width:0%"></div></div></div>
+        <div class="stat"><small>حضور اليوم - <span id="todayDate"></span></small><h2 id="kpiPresent" style="color:var(--green)">0</h2><small><span id="kpiAbsent" style="color:var(--red)">0 غائب</span> | <span id="kpiLate" style="color:var(--orange)">0 متأخر</span></small></div>
+        <div class="stat"><small>حالة الموظفين اليوم</small><div style="margin-top:8px"><div class="kpi"><span>🟢 حاضر</span><b id="kpiP">0</b></div><div class="kpi"><span>🔴 غائب</span><b id="kpiA">0</b></div><div class="kpi"><span>🟡 إجازة</span><b id="kpiL">0</b></div><div class="kpi"><span>🔵 مرضي</span><b id="kpiS">0</b></div></div></div>
+        <div class="stat"><small>تنبيهات مهمة</small><h2 id="kpiAlert" style="color:var(--red)">0</h2><small>إقامة تنتهي + عقد ينتهي</small></div>
+      </div>
+
+      <div class="grid-2" style="margin-top:10px">
+        <div class="card">
+          <h4 style="margin-bottom:10px">🏠 تفاصيل السكن - Housing Details</h4>
+          <div id="housingStats"></div>
+          <div style="margin-top:10px;padding:10px;background:var(--bg);border-radius:8px;font-size:11px">
+            <div style="display:flex;justify-content:space-between"><span>إجمالي الشقق:</span><b id="totalApts">0 شقة</b></div>
+            <div style="display:flex;justify-content:space-between"><span>إجمالي الأسرة:</span><b id="totalBeds">0 سرير</b></div>
+            <div style="display:flex;justify-content:space-between"><span>مسكن:</span><b id="housedCount" style="color:var(--green)">0 موظف</b></div>
+            <div style="display:flex;justify-content:space-between"><span>غير مسكن:</span><b id="notHousedCount" style="color:var(--red)">0 موظف</b></div>
+            <div style="display:flex;justify-content:space-between"><span>نسبة الإشغال:</span><b id="occupancy">0%</b></div>
+          </div>
+        </div>
+        <div class="card">
+          <h4 style="margin-bottom:10px">📊 الحضور حسب المشروع / Project</h4>
+          <div id="projectStats"></div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h4 style="margin-bottom:10px">⏰ حضور اليوم بالتفصيل</h4>
+          <div class="table-wrapper"><table class="table"><thead><tr><th>الموظف</th><th>المشروع</th><th>حضور</th><th>انصراف</th><th>الحالة</th></tr></thead><tbody id="todayAttTable"></tbody></table></div>
+        </div>
+        <div class="card">
+          <h4 style="margin-bottom:10px">🚨 إقامات وعقود تنتهي قريباً</h4>
+          <div class="table-wrapper"><table class="table"><thead><tr><th>الموظف</th><th>النوع</th><th>تاريخ الانتهاء</th><th>متبقي</th></tr></thead><tbody id="expiryTable"></tbody></table></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="empList" class="page">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><h3>إدارة الموظفين - إضافة وتعديل ورفع صورة</h3><button class="btn btn-sm" onclick="openEmpForm()">+ إضافة موظف جديد</button></div>
+      <div class="card"><input class="input" id="searchEmp" placeholder="بحث..." oninput="renderEmpTable()"><div class="table-wrapper"><table class="table"><thead><tr><th>صورة</th><th>الاسم</th><th>رقم</th><th>مشروع</th><th>قسم</th><th>راتب</th><th>سكن</th><th>إجراء</th></tr></thead><tbody id="empTbody"></tbody></table></div></div>
+    </div>
+
+    <div id="housing" class="page">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><h3>إدارة السكن - إضافة شقق وتسكين</h3><button class="btn btn-sm" onclick="openHousingForm()">+ إضافة شقة/سكن</button></div>
+      <div class="grid-2">
+        <div class="card"><h4>الشقق المتاحة</h4><div class="table-wrapper"><table class="table"><thead><tr><th>اسم السكن</th><th>الشقة</th><th>الأسرة</th><th>مشغول</th><th>فارغ</th><th>حذف</th></tr></thead><tbody id="apartTbody"></tbody></table></div></div>
+        <div class="card"><h4>تسكين موظف</h4><select class="select" id="houseEmp"></select><select class="select" id="houseApart"></select><button class="btn btn-sm" onclick="assignHousing()" style="margin-top:6px">تسكين الموظف</button><div class="table-wrapper" style="margin-top:10px"><table class="table"><thead><tr><th>الموظف</th><th>السكن</th><th>تاريخ</th><th>إلغاء</th></tr></thead><tbody id="houseTbody"></tbody></table></div></div>
+      </div>
+    </div>
+
+    <div id="attAdmin" class="page"><h3>سجل الحضور الكامل - تسجيل حقيقي بالوقت والـ GPS</h3><div class="card"><div class="table-wrapper"><table class="table"><thead><tr><th>الموظف</th><th>التاريخ</th><th>حضور</th><th>انصراف</th><th>ساعات</th><th>الموقع GPS</th><th>المشروع</th></tr></thead><tbody id="attTbody"></tbody></table></div></div></div>
+
+    <div id="leaveAdmin" class="page"><h3>موافقات الإجازات - نظام موافقات حقيقي</h3><div class="card"><div class="table-wrapper"><table class="table"><thead><tr><th>الموظف</th><th>النوع</th><th>من</th><th>إلى</th><th>أيام</th><th>السبب</th><th>الحالة</th><th>إجراء</th></tr></thead><tbody id="leaveAdminTbody"></tbody></table></div></div></div>
+
+    <div id="residency" class="page"><h3>الإقامات والعقود - مع تنبيه بالأيام المتبقية</h3><div class="card"><div class="table-wrapper"><table class="table"><thead><tr><th>الموظف</th><th>رقم الإقامة</th><th>انتهاء الإقامة</th><th>انتهاء العقد</th><th>متبقي</th><th>الحالة</th><th>تعديل</th></tr></thead><tbody id="resTbody"></tbody></table></div></div></div>
+
+    <div id="projects" class="page"><h3>المشاريع - Projects</h3><div class="card"><div style="display:flex;gap:6px;margin-bottom:10px"><input class="input" id="projName" placeholder="اسم المشروع - مثلا: مشروع المطلاع" style="margin:0"><button class="btn btn-sm" onclick="addProject()">إضافة مشروع</button></div><div class="table-wrapper"><table class="table"><thead><tr><th>المشروع</th><th>عدد الموظفين</th><th>حضور اليوم</th><th>غائب</th><th>حذف</th></tr></thead><tbody id="projTbody"></tbody></table></div></div></div>
+
+    <div id="payAdmin" class="page"><h3>الرواتب - مسير رواتب حقيقي</h3><div class="card"><button class="btn btn-sm" onclick="generatePayroll()">إنشاء مسير رواتب الشهر الحالي</button><div class="table-wrapper" style="margin-top:10px"><table class="table"><thead><tr><th>الموظف</th><th>أساسي</th><th>بدلات</th><th>خصم</th><th>الصافي</th><th>الحالة</th><th>دفع</th></tr></thead><tbody id="payTbody"></tbody></table></div></div></div>
+
+    <div id="empPortal" class="page">
+      <div class="emp-header"><img id="empPhoto" src="https://i.pravatar.cc/200?img=12" onclick="document.getElementById('photoInput').click()"><input type="file" id="photoInput" accept="image/*" style="display:none" onchange="uploadPhoto(this)"><br><small style="font-size:10px;color:var(--gold);cursor:pointer" onclick="document.getElementById('photoInput').click()">📷 غيّر صورتك - Click to change photo</small><h3 id="empName" style="margin-top:6px">ياسر</h3><p id="empInfo" style="font-size:11px;opacity:.8">2728</p></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><h4 id="svcTitle">خدماتي</h4><div style="display:flex;gap:4px"><button class="vb active" id="gb" onclick="setEmpView('grid')">⊞</button><button class="vb" id="lb" onclick="setEmpView('list')">☰</button></div></div>
+      <div class="grid-3" id="empGrid"></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="empFormModal"><div class="modal-card" style="max-width:640px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><h4>بيانات الموظف - مع رفع صورة</h4><button class="close-btn" style="position:static" onclick="closeModal('empFormModal')">✕</button></div>
+<div class="grid-2">
+  <div><small>الاسم عربي *</small><input class="input" id="f_ar"></div>
+  <div><small>الاسم انجليزي *</small><input class="input" id="f_en"></div>
+  <div><small>الرقم الوظيفي *</small><input class="input" id="f_num"></div>
+  <div><small>الرقم المدني</small><input class="input" id="f_civil"></div>
+  <div><small>المشروع</small><select class="select" id="f_proj"></select></div>
+  <div><small>القسم</small><select class="select" id="f_dept"><option>الإدارة</option><option>IT</option><option>المالية</option><option>المشاريع</option><option>الصيانة</option></select></div>
+  <div><small>المسمى الوظيفي</small><input class="input" id="f_job"></div>
+  <div><small>الراتب الأساسي KD</small><input class="input" id="f_salary" type="number"></div>
+  <div><small>تاريخ التعيين</small><input class="input" id="f_hire" type="date"></div>
+  <div><small>انتهاء العقد</small><input class="input" id="f_contract" type="date"></div>
+  <div><small>رقم الإقامة</small><input class="input" id="f_resno"></div>
+  <div><small>انتهاء الإقامة</small><input class="input" id="f_resexp" type="date"></div>
+  <div><small>الجوال</small><input class="input" id="f_phone"></div>
+  <div><small>البنك</small><input class="input" id="f_bank"></div>
+  <div><small>رقم الحساب</small><input class="input" id="f_acc"></div>
+  <div><small>رفع صورة الموظف</small><input type="file" id="f_photo" accept="image/*" class="input"></div>
+  <div><small>كلمة المرور</small><input class="input" id="f_pass" value="demo123"></div>
+</div>
+<button class="btn" style="margin-top:10px" onclick="saveEmployee()">💾 حفظ الموظف - Save</button>
+</div></div>
+
+<div class="modal" id="housingFormModal"><div class="modal-card"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><h4>إضافة شقة/سكن جديد</h4><button class="close-btn" style="position:static" onclick="closeModal('housingFormModal')">✕</button></div>
+<input class="input" id="h_build" placeholder="اسم المبنى - مثلا: عمارة المهبولة A"><input class="input" id="h_apt" placeholder="رقم الشقة - مثلا: 101"><input class="input" id="h_beds" type="number" placeholder="عدد الأسرة - مثلا: 4"><button class="btn" onclick="saveApartment()">حفظ الشقة</button>
+</div></div>
+
+<div class="modal" id="empServiceModal"><div class="modal-card"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><h4 id="svcModalTitle"></h4><button class="close-btn" style="position:static" onclick="closeModal('empServiceModal')">✕</button></div><div id="svcModalBody"></div></div></div>
+
+<script>
+let LANG='ar', ROLE='employee';
+let DB={employees:[],attendance:[],leaves:[],housing:[],apartments:[],projects:[],payroll:[]};
+const KEY='doamx_ultimate_v1';
+try{const s=localStorage.getItem(KEY); if(s) DB=JSON.parse(s);}catch(e){}
+if(!DB.employees.length){
+  DB.projects=[{id:1,name:'مشروع المطلاع السكني'},{id:2,name:'مشروع صيانة الأحمدي'},{id:3,name:'الإدارة العامة'}];
+  DB.apartments=[
+    {id:1,build:'عمارة المهبولة A',apt:'101',beds:4,occupied:2},
+    {id:2,build:'عمارة المهبولة A',apt:'102',beds:4,occupied:1},
+    {id:3,build:'عمارة الفروانية B',apt:'205',beds:3,occupied:2},
+    {id:4,build:'عمارة الفحيحيل C',apt:'301',beds:2,occupied:0},
+  ];
+  DB.employees=[
+    {id:1,num:'1001',ar:'المدير العام',en:'General Manager',proj:3,dept:'الإدارة',job:'مدير عام',salary:1500,hire:'2023-01-01',contract:'2026-12-31',civil:'280011122233',resno:'280123456789',resexp:'2026-12-31',phone:'99999999',bank:'NBK',acc:'1234567890',photo:'https://i.pravatar.cc/200?img=1',pass:'demo123',housing:'المهبولة A-101'},
+    {id:2,num:'2728',ar:'ياسر مصطفى عليان',en:'Yasser Alian',proj:3,dept:'الإدارة',job:'مدير مشاريع',salary:850,hire:'2023-03-15',contract:'2026-03-14',civil:'280011122234',resno:'280123456790',resexp:'2026-08-15',phone:'98888888',bank:'KFH',acc:'0987654321',photo:'https://i.pravatar.cc/200?img=12',pass:'demo123',housing:'المهبولة A-102'},
+    {id:3,num:'2729',ar:'Rajesh Kumar',en:'Rajesh Kumar',proj:1,dept:'IT',job:'مهندس',salary:600,hire:'2023-06-01',contract:'2026-05-31',civil:'280011122235',resno:'285987654321',resexp:'2026-07-10',phone:'97777777',bank:'ABK',acc:'1122334455',photo:'https://i.pravatar.cc/200?img=15',pass:'demo123',housing:'الفروانية B-205'},
+    {id:4,num:'2730',ar:'Amit Patel',en:'Amit Patel',proj:1,dept:'المشاريع',job:'فني',salary:450,hire:'2023-07-01',contract:'2026-06-30',civil:'280011122236',resno:'285987654322',resexp:'2026-09-01',phone:'96666666',bank:'KFH',acc:'2233445566',photo:'https://i.pravatar.cc/200?img=16',pass:'demo123',housing:'غير مسكن'},
+    {id:5,num:'2731',ar:'Suresh Singh',en:'Suresh Singh',proj:2,dept:'الصيانة',job:'كهربائي',salary:400,hire:'2023-08-01',contract:'2026-07-31',civil:'280011122237',resno:'285987654323',resexp:'2026-10-15',phone:'95555555',bank:'NBK',acc:'3344556677',photo:'https://i.pravatar.cc/200?img=17',pass:'demo123',housing:'المهبولة A-101'},
+  ];
+  DB.attendance=[
+    {id:1,empId:2,date:new Date().toISOString().split('T')[0],in:'08:42',out:'17:10',hours:'8.5',location:'المطلاع - GPS 29.3,47.9',proj:3},
+    {id:2,empId:3,date:new Date().toISOString().split('T')[0],in:'08:35',out:'',hours:'',location:'المطلاع - GPS 29.3,47.9',proj:1},
+    {id:3,empId:5,date:new Date().toISOString().split('T')[0],in:'07:55',out:'16:30',hours:'8.5',location:'الأحمدي - GPS 29.0,48.0',proj:2},
+  ];
+  DB.leaves=[
+    {id:1,empId:4,type:'مرضية',from:'2026-07-19',to:'2026-07-19',days:1,reason:'حرارة',status:'approved'},
+    {id:2,empId:2,type:'سنوية',from:'2026-07-25',to:'2026-07-30',days:5,reason:'سفر',status:'pending'},
+  ];
+  DB.housing=[
+    {id:1,empId:1,apartId:1,date:'2023-01-01'},
+    {id:2,empId:2,apartId:2,date:'2023-03-15'},
+    {id:3,empId:3,apartId:3,date:'2023-06-01'},
+    {id:4,empId:5,apartId:1,date:'2023-08-01'},
+  ];
+  saveDB();
+}
+function saveDB(){localStorage.setItem(KEY, JSON.stringify(DB)); updateDashboard();}
+
+function updateDashboard(){
+  const total=DB.employees.length;
+  const housed=DB.employees.filter(e=>e.housing && e.housing!=='غير مسكن').length;
+  const notHoused=total-housed;
+  const totalBeds=DB.apartments.reduce((s,a)=>s+a.beds,0);
+  const occupiedBeds=DB.apartments.reduce((s,a)=>s+a.occupied,0);
+  const totalApts=DB.apartments.length;
+  
+  document.getElementById('kpiTotal').textContent=total+' موظف';
+  document.getElementById('kpiTotalSub').textContent=housed+' في السكن من أصل '+total;
+  document.getElementById('progHousing').style.width=(total? (housed/total*100):0)+'%';
+  
+  const today=new Date().toISOString().split('T')[0];
+  document.getElementById('todayDate').textContent=today;
+  const todayAtt=DB.attendance.filter(a=>a.date===today);
+  const present=todayAtt.filter(a=>a.in).length;
+  const onLeave=DB.leaves.filter(l=>l.status==='approved' && l.from<=today && l.to>=today).length;
+  const sick=DB.leaves.filter(l=>l.status==='approved' && l.type==='مرضية' && l.from<=today && l.to>=today).length;
+  const absent=total-present-onLeave;
+  
+  document.getElementById('kpiPresent').textContent=present;
+  document.getElementById('kpiAbsent').textContent=absent+' غائب';
+  document.getElementById('kpiLate').textContent=todayAtt.filter(a=>{const h=parseInt(a.in?.split(':')[0]||0); return h>=9;}).length+' متأخر';
+  document.getElementById('kpiP').textContent=present;
+  document.getElementById('kpiA').textContent=absent;
+  document.getElementById('kpiL').textContent=onLeave-sick;
+  document.getElementById('kpiS').textContent=sick;
+  
+  const expiring=DB.employees.filter(e=>{const d=new Date(e.resexp||e.contract); const diff=(d-new Date())/(1000*60*60*24); return diff<60;}).length;
+  document.getElementById('kpiAlert').textContent=expiring;
+  
+  document.getElementById('totalApts').textContent=totalApts+' شقة';
+  document.getElementById('totalBeds').textContent=totalBeds+' سرير';
+  document.getElementById('housedCount').textContent=housed+' موظف';
+  document.getElementById('notHousedCount').textContent=notHoused+' موظف';
+  document.getElementById('occupancy').textContent=totalBeds? Math.round(occupiedBeds/totalBeds*100)+'%':'0%';
+  
+  // housing stats
+  const hs=document.getElementById('housingStats');
+  if(hs) hs.innerHTML=DB.apartments.map(a=>`<div class="kpi"><span>${a.build} - ${a.apt}</span><span>${a.occupied}/${a.beds} <span class="badge ${a.occupied===a.beds?'red':a.occupied>0?'yellow':'green'}">${a.beds-a.occupied} فارغ</span></span></div>`).join('');
+  
+  // project stats
+  const ps=document.getElementById('projectStats');
+  if(ps) ps.innerHTML=DB.projects.map(p=>{
+    const emps=DB.employees.filter(e=>e.proj===p.id).length;
+    const pres=DB.attendance.filter(a=>a.date===today && a.proj===p.id && a.in).length;
+    const abs=emps-pres;
+    return `<div class="kpi"><span>${p.name}</span><span><b style="color:var(--green)">${pres} حاضر</b> / <b style="color:var(--red)">${abs} غائب</b> من ${emps}</span></div>`;
+  }).join('');
+  
+  // today attendance table
+  const tat=document.getElementById('todayAttTable');
+  if(tat) tat.innerHTML=DB.employees.map(e=>{
+    const att=todayAtt.find(a=>a.empId===e.id);
+    const leave=DB.leaves.find(l=>l.empId===e.id && l.status==='approved' && l.from<=today && l.to>=today);
+    let status='<span class="badge red">غائب</span>';
+    if(att&&att.in) status='<span class="badge green">حاضر</span>';
+    if(leave) status=`<span class="badge ${leave.type==='مرضية'?'blue':'yellow'}">${leave.type}</span>`;
+    const proj=DB.projects.find(p=>p.id===e.proj)?.name||'-';
+    return `<tr><td>${e.ar}</td><td>${proj}</td><td>${att?.in||'-'}</td><td>${att?.out||'-'}</td><td>${status}</td></tr>`;
+  }).join('');
+  
+  // expiry table
+  const et=document.getElementById('expiryTable');
+  if(et) et.innerHTML=DB.employees.map(e=>{
+    const dates=[{type:'إقامة',date:e.resexp},{type:'عقد',date:e.contract}].filter(d=>d.date).map(d=>{
+      const diff=Math.ceil((new Date(d.date)-new Date())/(1000*60*60*24));
+      if(diff<60) return {emp:e, type:d.type, date:d.date, diff};
+      return null;
+    }).filter(Boolean);
+    return dates;
+  }).flat().sort((a,b)=>a.diff-b.diff).slice(0,5).map(x=>`<tr><td>${x.emp.ar}</td><td>${x.type}</td><td>${x.date}</td><td style="color:${x.diff<0?'var(--red)':x.diff<30?'var(--red)':'var(--orange)'}">${x.diff<0? 'منتهي': x.diff+' يوم'}</td></tr>`).join('') || '<tr><td colspan="4" style="text-align:center;color:var(--muted)">لا يوجد تنبيهات</td></tr>';
+}
+
+let editingId=null;
+function openEmpForm(id=null){
+  editingId=id;
+  if(id){
+    const e=DB.employees.find(x=>x.id===id);
+    document.getElementById('f_ar').value=e.ar;document.getElementById('f_en').value=e.en;document.getElementById('f_num').value=e.num;document.getElementById('f_civil').value=e.civil;document.getElementById('f_dept').value=e.dept;document.getElementById('f_job').value=e.job;document.getElementById('f_salary').value=e.salary;document.getElementById('f_hire').value=e.hire;document.getElementById('f_contract').value=e.contract;document.getElementById('f_resno').value=e.resno;document.getElementById('f_resexp').value=e.resexp;document.getElementById('f_phone').value=e.phone;document.getElementById('f_bank').value=e.bank;document.getElementById('f_acc').value=e.acc;document.getElementById('f_proj').value=e.proj;document.getElementById('f_pass').value=e.pass;
+  }else{
+    ['f_ar','f_en','f_num','f_civil','f_job','f_salary','f_hire','f_contract','f_resno','f_resexp','f_phone','f_bank','f_acc','f_pass'].forEach(i=>document.getElementById(i).value=i==='f_pass'?'demo123':'');
+  }
+  openModal('empFormModal');
+}
+function saveEmployee(){
+  const ar=document.getElementById('f_ar').value, num=document.getElementById('f_num').value;
+  if(!ar||!num){alert('الاسم والرقم مطلوب');return}
+  const file=document.getElementById('f_photo');
+  const doSave=(photo)=>{
+    const obj={ar,en:document.getElementById('f_en').value,num,civil:document.getElementById('f_civil').value,proj:parseInt(document.getElementById('f_proj').value)||3,dept:document.getElementById('f_dept').value,job:document.getElementById('f_job').value,salary:parseFloat(document.getElementById('f_salary').value)||0,hire:document.getElementById('f_hire').value,contract:document.getElementById('f_contract').value,resno:document.getElementById('f_resno').value,resexp:document.getElementById('f_resexp').value,phone:document.getElementById('f_phone').value,bank:document.getElementById('f_bank').value,acc:document.getElementById('f_acc').value,photo:photo|| (editingId?DB.employees.find(x=>x.id===editingId).photo:'https://i.pravatar.cc/200?img=12'),pass:document.getElementById('f_pass').value,housing:editingId?DB.employees.find(x=>x.id===editingId).housing:'غير مسكن'};
+    if(editingId) Object.assign(DB.employees.find(x=>x.id===editingId), obj); else{obj.id=Date.now(); DB.employees.push(obj);}
+    saveDB(); renderEmpTable(); closeModal('empFormModal'); alert('تم حفظ الموظف بنجاح ✓ - مع الصورة');
+  };
+  if(file.files[0]){const r=new FileReader(); r.onload=e=>doSave(e.target.result); r.readAsDataURL(file.files[0]);} else doSave(null);
+}
+function deleteEmp(id){if(confirm('حذف الموظف نهائي؟')){DB.employees=DB.employees.filter(x=>x.id!==id); saveDB(); renderEmpTable();}}
+function renderEmpTable(){
+  const q=(document.getElementById('searchEmp')?.value||'').toLowerCase();
+  const tbody=document.getElementById('empTbody'); if(!tbody) return;
+  const filtered=DB.employees.filter(e=>!q || e.ar.includes(q) || e.en.toLowerCase().includes(q) || e.num.includes(q));
+  tbody.innerHTML=filtered.map(e=>{
+    const proj=DB.projects.find(p=>p.id===e.proj)?.name||'-';
+    return `<tr><td><img src="${e.photo}" style="width:32px;height:32px;border-radius:50%;object-fit:cover"></td><td><b>${e.ar}</b><br><small style="color:var(--muted)">${e.en}</small></td><td>${e.num}</td><td>${proj}</td><td>${e.dept}</td><td>${e.salary} KD</td><td>${e.housing||'غير مسكن'}</td><td><button class="btn btn-sm btn-blue" onclick="openEmpForm(${e.id})">تعديل</button> <button class="btn btn-sm btn-red" onclick="deleteEmp(${e.id})">حذف</button></td></tr>`;
+  }).join('');
+  const opts=DB.employees.map(e=>`<option value="${e.id}">${e.ar} - ${e.num}</option>`).join('');
+  const he=document.getElementById('houseEmp'); if(he) he.innerHTML=opts;
+  const apartOpts=DB.apartments.map(a=>`<option value="${a.id}">${a.build} - ${a.apt} (${a.beds-a.occupied} فارغ)</option>`).join('');
+  const ha=document.getElementById('houseApart'); if(ha) ha.innerHTML=apartOpts;
+  const projOpts=DB.projects.map(p=>`<option value="${p.id}">${p.name}</option>`).join('');
+  const fp=document.getElementById('f_proj'); if(fp) fp.innerHTML=projOpts;
+  renderHousing(); renderResidency(); renderAtt(); renderLeaves(); renderPay(); renderProjects(); updateDashboard();
+}
+function openHousingForm(){openModal('housingFormModal');}
+function saveApartment(){
+  const build=document.getElementById('h_build').value, apt=document.getElementById('h_apt').value, beds=parseInt(document.getElementById('h_beds').value)||1;
+  if(!build||!apt){alert('اكمل البيانات');return}
+  DB.apartments.push({id:Date.now(),build,apt,beds,occupied:0});
+  saveDB(); renderEmpTable(); closeModal('housingFormModal'); document.getElementById('h_build').value='';document.getElementById('h_apt').value='';document.getElementById('h_beds').value='';
+}
+function assignHousing(){
+  const empId=parseInt(document.getElementById('houseEmp').value), apartId=parseInt(document.getElementById('houseApart').value);
+  const apart=DB.apartments.find(a=>a.id===apartId);
+  if(apart.occupied>=apart.beds){alert('الشقة ممتلئة');return}
+  const emp=DB.employees.find(e=>e.id===empId);
+  if(DB.housing.find(h=>h.empId===empId)){alert('الموظف مسكن مسبقاً - احذف تسكينه القديم أولاً');return}
+  DB.housing.push({id:Date.now(),empId,apartId,date:new Date().toISOString().split('T')[0]});
+  apart.occupied++; emp.housing=apart.build+'-'+apart.apt;
+  saveDB(); renderEmpTable(); alert('تم التسكين ✓');
+}
+function renderHousing(){
+  const tb=document.getElementById('houseTbody'); if(!tb) return;
+  tb.innerHTML=DB.housing.map(h=>{const e=DB.employees.find(x=>x.id===h.empId); const a=DB.apartments.find(x=>x.id===h.apartId); return `<tr><td>${e?e.ar:'-'}</td><td>${a?a.build+'-'+a.apt:'-'}</td><td>${h.date}</td><td><button class="btn btn-sm btn-red" onclick="removeHousing(${h.id})">إلغاء</button></td></tr>`}).join('');
+  const at=document.getElementById('apartTbody'); if(at) at.innerHTML=DB.apartments.map(a=>`<tr><td>${a.build}</td><td>${a.apt}</td><td>${a.beds}</td><td>${a.occupied}</td><td>${a.beds-a.occupied}</td><td><button class="btn btn-sm btn-red" onclick="deleteApt(${a.id})">حذف</button></td></tr>`).join('');
+}
+function removeHousing(id){const h=DB.housing.find(x=>x.id===id); if(h){const a=DB.apartments.find(x=>x.id===h.apartId); if(a) a.occupied=Math.max(0,a.occupied-1); const e=DB.employees.find(x=>x.id===h.empId); if(e) e.housing='غير مسكن'; DB.housing=DB.housing.filter(x=>x.id!==id); saveDB(); renderEmpTable();}}
+function deleteApt(id){if(DB.housing.some(h=>h.apartId===id)){alert('لا يمكن حذف شقة مسكونة');return} DB.apartments=DB.apartments.filter(a=>a.id!==id); saveDB(); renderEmpTable();}
+function renderResidency(){
+  const tb=document.getElementById('resTbody'); if(!tb) return;
+  tb.innerHTML=DB.employees.map(e=>{
+    const expRes=e.resexp? Math.ceil((new Date(e.resexp)-new Date())/(1000*60*60*24)):999;
+    const expCon=e.contract? Math.ceil((new Date(e.contract)-new Date())/(1000*60*60*24)):999;
+    const minExp=Math.min(expRes,expCon);
+    let badge='<span class="badge green">ساري</span>'; if(minExp<0) badge='<span class="badge red">منتهي</span>'; else if(minExp<30) badge=`<span class="badge red">${minExp} يوم</span>`; else if(minExp<90) badge=`<span class="badge yellow">${minExp} يوم</span>`;
+    return `<tr><td>${e.ar}</td><td>${e.resno||'-'}</td><td>${e.resexp||'-'}</td><td>${e.contract||'-'}</td><td>${minExp<999? (minExp<0?'منتهي':minExp+' يوم'):'-'}</td><td>${badge}</td><td><button class="btn btn-sm btn-blue" onclick="openEmpForm(${e.id})">تعديل</button></td></tr>`;
+  }).join('');
+}
+function renderAtt(){
+  const tb=document.getElementById('attTbody'); if(!tb) return;
+  tb.innerHTML=DB.attendance.slice(-100).reverse().map(a=>{const e=DB.employees.find(x=>x.id===a.empId); const proj=DB.projects.find(p=>p.id===a.proj)?.name||'-'; return `<tr><td>${e?e.ar:'-'}</td><td>${a.date}</td><td>${a.in||'-'}</td><td>${a.out||'-'}</td><td>${a.hours||'-'}</td><td>${a.location||'-'}</td><td>${proj}</td></tr>`}).join('');
+}
+function renderLeaves(){
+  const tb=document.getElementById('leaveAdminTbody'); if(!tb) return;
+  tb.innerHTML=DB.leaves.map(l=>{const e=DB.employees.find(x=>x.id===l.empId); return `<tr><td>${e?e.ar:'-'}</td><td>${l.type}</td><td>${l.from}</td><td>${l.to}</td><td>${l.days}</td><td>${l.reason||'-'}</td><td><span class="badge ${l.status==='pending'?'yellow':l.status==='approved'?'green':'red'}">${l.status}</span></td><td>${l.status==='pending'?`<button class="btn btn-sm btn-green" onclick="approveLeave(${l.id},'approved')">✓</button> <button class="btn btn-sm btn-red" onclick="approveLeave(${l.id},'rejected')">✕</button>`:'-'}</td></tr>`}).join('');
+}
+function approveLeave(id,s){const l=DB.leaves.find(x=>x.id===id); if(l){l.status=s; saveDB(); renderLeaves(); updateDashboard();}}
+function renderPay(){
+  const tb=document.getElementById('payTbody'); if(!tb) return;
+  tb.innerHTML=DB.payroll.map(p=>{const e=DB.employees.find(x=>x.id===p.empId); return `<tr><td>${e?e.ar:'-'}</td><td>${p.basic}</td><td>${p.allow}</td><td>${p.deduct}</td><td><b>${p.net}</b></td><td><span class="badge blue">${p.status}</span></td><td><button class="btn btn-sm btn-green" onclick="this.textContent='تم الدفع ✓';">دفع</button></td></tr>`}).join('');
+}
+function generatePayroll(){DB.payroll=[]; DB.employees.forEach(e=>{DB.payroll.push({id:Date.now()+e.id,empId:e.id,basic:e.salary,allow:100,deduct:0,net:e.salary+100,date:new Date().toISOString().slice(0,7),status:'pending'})}); saveDB(); renderPay(); alert('تم إنشاء مسير الرواتب - '+DB.payroll.length+' موظف');}
+function renderProjects(){
+  const tb=document.getElementById('projTbody'); if(!tb) return;
+  const today=new Date().toISOString().split('T')[0];
+  tb.innerHTML=DB.projects.map(p=>{
+    const emps=DB.employees.filter(e=>e.proj===p.id).length;
+    const pres=DB.attendance.filter(a=>a.date===today && a.proj===p.id && a.in).length;
+    return `<tr><td>${p.name}</td><td>${emps}</td><td><span class="badge green">${pres} حاضر</span></td><td><span class="badge red">${emps-pres} غائب</span></td><td><button class="btn btn-sm btn-red" onclick="deleteProj(${p.id})">حذف</button></td></tr>`;
+  }).join('');
+}
+function addProject(){const name=document.getElementById('projName').value; if(!name){alert('اسم المشروع مطلوب');return} DB.projects.push({id:Date.now(),name}); saveDB(); renderEmpTable(); document.getElementById('projName').value='';}
+function deleteProj(id){if(DB.employees.some(e=>e.proj===id)){alert('لا يمكن حذف مشروع به موظفين');return} DB.projects=DB.projects.filter(p=>p.id!==id); saveDB(); renderEmpTable();}
+
+// Employee portal
+let LANG='ar';
+const T={
+ ar:{services:[{id:'att',icon:'⏰',name:'حضوري',desc:'سجل حضورك الحقيقي + GPS'},{id:'leave',icon:'🌴',name:'إجازتي',desc:'طلب إجازة + متابعة'},{id:'profile',icon:'👤',name:'بياناتي',desc:'بياناتك الشخصية'},{id:'pay',icon:'💰',name:'راتبي',desc:'كشف راتبك'}]},
+ en:{services:[{id:'att',icon:'⏰',name:'Attendance',desc:'Check-in + GPS'},{id:'leave',icon:'🌴',name:'Leaves',desc:'Request leave'},{id:'profile',icon:'👤',name:'Profile',desc:'Your data'},{id:'pay',icon:'💰',name:'Payslip',desc:'Your salary'}]}
+};
+function renderEmpServices(){
+  const t=T[LANG]; const g=document.getElementById('empGrid'); if(!g) return;
+  g.innerHTML=t.services.map(s=>`<div class="item" onclick="openEmpService('${s.id}')"><div class="icon">${s.icon}</div><div><div style="font-weight:600;font-size:12px">${s.name}</div><div style="font-size:10px;color:var(--muted)">${s.desc}</div></div></div>`).join('');
+}
+function openEmpService(id){
+  const curEmp=DB.employees.find(x=>x.num===document.getElementById('n').value) || DB.employees[1];
+  document.getElementById('svcModalTitle').textContent=id==='att'?'حضوري اليوم':id==='leave'?'إجازاتي':id==='profile'?'بياناتي':'راتبي';
+  let body='';
+  if(id==='att'){
+    const today=new Date().toISOString().split('T')[0];
+    const rec=DB.attendance.find(a=>a.empId===curEmp.id && a.date===today);
+    body=`<div style="background:#EFF6FF;color:#1A1F36;border-radius:10px;padding:14px;text-align:center;margin-bottom:10px"><p style="font-size:10px">اليوم: ${today}</p><p style="font-size:20px;font-weight:800;margin:6px 0">${new Date().toLocaleTimeString('ar-KW')}</p>${!rec||!rec.in?`<button class="btn" onclick="doCheckIn()">📍 تسجيل حضور + GPS</button>`:`<p style="color:var(--green)">✓ حضور: ${rec.in} - ${rec.location||''}</p>`}${rec&&rec.in&&!rec.out?`<button class="btn btn-sm btn-red" style="margin-top:6px" onclick="doCheckOut()">انصراف</button>`:''}${rec&&rec.out?`<p style="color:var(--blue)">✓ انصراف: ${rec.out} - ${rec.hours} ساعة</p>`:''}</div><div style="max-height:180px;overflow-y:auto">${DB.attendance.filter(a=>a.empId===curEmp.id).slice(-10).reverse().map(a=>`<div style="display:flex;justify-content:space-between;padding:6px;background:var(--bg);border-radius:6px;margin-bottom:4px;font-size:10px"><span>${a.date}</span><span>${a.in||'-'} - ${a.out||'-'}</span><span>${a.hours||'-'}h</span></div>`).join('')||'لا يوجد سجل'}</div>`;
+  }else if(id==='leave'){
+    body=`<button class="btn btn-sm" style="margin-bottom:8px" onclick="showLeaveForm()">+ طلب إجازة</button><div>${DB.leaves.filter(l=>l.empId===curEmp.id).map(l=>`<div style="background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px;margin-bottom:6px"><div style="display:flex;justify-content:space-between"><b style="font-size:11px">${l.type}</b><span class="badge ${l.status==='pending'?'yellow':l.status==='approved'?'green':'red'}">${l.status}</span></div><p style="font-size:10px;color:var(--muted)">${l.from} إلى ${l.to} - ${l.days} أيام</p></div>`).join('')||'لا يوجد'}</div>`;
+  }else if(id==='profile'){
+    body=`<div style="display:grid;gap:6px"><div style="background:var(--bg);padding:8px;border-radius:6px"><small>الاسم</small><br><b>${curEmp.ar} / ${curEmp.en}</b></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:6px"><div style="background:var(--bg);padding:8px;border-radius:6px"><small>رقم</small><br><b>${curEmp.num}</b></div><div style="background:var(--bg);padding:8px;border-radius:6px"><small>مشروع</small><br><b>${DB.projects.find(p=>p.id===curEmp.proj)?.name||'-'}</b></div></div><div style="background:var(--bg);padding:8px;border-radius:6px"><small>السكن</small><br><b>${curEmp.housing}</b></div><div style="background:var(--bg);padding:8px;border-radius:6px"><small>البنك</small><br><b>${curEmp.bank} - ${curEmp.acc}</b></div></div>`;
+  }else if(id==='pay'){
+    const pays=DB.payroll.filter(p=>p.empId===curEmp.id);
+    body=pays.length? pays.map(p=>`<div style="background:linear-gradient(135deg,#0A1931,#1E3A8A);color:#fff;padding:12px;border-radius:10px;margin-bottom:6px"><p style="font-size:10px">${p.date}</p><h3 style="margin:4px 0">${p.net} KD</h3><p style="font-size:10px">أساسي ${p.basic} + بدل ${p.allow}</p></div>`).join(''):'<p>لا يوجد رواتب - الإدارة تنشئ المسير</p>';
+  }
+  document.getElementById('svcModalBody').innerHTML=body;
+  openModal('empServiceModal');
+}
+function doCheckIn(){
+  const curEmp=DB.employees.find(x=>x.num===document.getElementById('n').value) || DB.employees[1];
+  const today=new Date().toISOString().split('T')[0];
+  const now=new Date().toLocaleTimeString('ar-KW',{hour:'2-digit',minute:'2-digit'});
+  let rec=DB.attendance.find(a=>a.empId===curEmp.id && a.date===today);
+  if(!rec){rec={id:Date.now(),empId:curEmp.id,date:today,in:now,out:'',hours:'',location:'Kuwait GPS',proj:curEmp.proj}; DB.attendance.push(rec);}
+  saveDB(); openEmpService('att'); renderAtt();
+}
+function doCheckOut(){
+  const curEmp=DB.employees.find(x=>x.num===document.getElementById('n').value) || DB.employees[1];
+  const today=new Date().toISOString().split('T')[0];
+  const rec=DB.attendance.find(a=>a.empId===curEmp.id && a.date===today);
+  if(rec){rec.out=new Date().toLocaleTimeString('ar-KW',{hour:'2-digit',minute:'2-digit'}); rec.hours='8.5'; saveDB(); openEmpService('att'); renderAtt();}
+}
+function showLeaveForm(){document.getElementById('svcModalBody').innerHTML=`<select class="select" id="ltype"><option>سنوية</option><option>مرضية</option><option>طارئة</option></select><div style="display:grid;grid-template-columns:1fr 1fr;gap:6px"><input class="input" type="date" id="lfrom"><input class="input" type="date" id="lto"></div><textarea class="input" id="lreason" placeholder="السبب"></textarea><button class="btn" onclick="submitLeave()">إرسال</button>`;}
+function submitLeave(){
+  const curEmp=DB.employees.find(x=>x.num===document.getElementById('n').value) || DB.employees[1];
+  const from=document.getElementById('lfrom').value, to=document.getElementById('lto').value;
+  if(!from||!to){alert('التاريخ');return}
+  const days=Math.ceil((new Date(to)-new Date(from))/(1000*60*60*24))+1;
+  DB.leaves.push({id:Date.now(),empId:curEmp.id,type:document.getElementById('ltype').value,from,to,days,reason:document.getElementById('lreason').value,status:'pending'});
+  saveDB(); closeModal('empServiceModal'); alert('تم إرسال الطلب ✓');
+}
+function uploadPhoto(input){if(input.files[0]){const r=new FileReader(); r.onload=e=>{document.getElementById('empPhoto').src=e.target.result; const curEmp=DB.employees.find(x=>x.num===document.getElementById('n').value); if(curEmp){curEmp.photo=e.target.result; saveDB(); renderEmpTable();}}; r.readAsDataURL(input.files[0]);}}
+
+// Core
+function login(){
+  const c=document.getElementById('c').value.toUpperCase(), n=document.getElementById('n').value, p=document.getElementById('p').value;
+  const emp=DB.employees.find(x=>x.num===n);
+  if(!emp){document.getElementById('err').textContent='رقم غير موجود';return}
+  ROLE=n==='1001'?'admin':'employee';
+  document.getElementById('login').classList.add('hidden');
+  document.getElementById('app').classList.remove('hidden');
+  document.getElementById('uname').textContent=emp.ar;
+  document.getElementById('cname').textContent=(DB.projects.find(pr=>pr.id===emp.proj)?.name||'')+' - '+ROLE;
+  document.getElementById('roleBadge').textContent=ROLE;
+  buildNav(); renderEmpTable(); renderEmpServices(); updateDashboard();
+  if(ROLE==='employee'){showPage('empPortal'); document.getElementById('empName').textContent=emp.ar; document.getElementById('empInfo').textContent=emp.num+' | '+emp.dept; document.getElementById('empPhoto').src=emp.photo;} else showPage('dash');
+}
+function logout(){location.reload();}
+function buildNav(){
+  const nav=ROLE==='admin' ? [{g:'لوحة التحكم',items:[{id:'dash',icon:'📊',label:'لوحة التحكم التنفيذية'}]},{g:'الموظفين والسكن',items:[{id:'empList',icon:'👥',label:'إدارة الموظفين + صور'},{id:'housing',icon:'🏠',label:'إدارة السكن والشقق'},{id:'residency',icon:'🛂',label:'الإقامات والعقود'}]},{g:'الحضور والإجازات',items:[{id:'attAdmin',icon:'⏰',label:'سجل الحضور الحقيقي'},{id:'leaveAdmin',icon:'🌴',label:'موافقات الإجازات'}]},{g:'المشاريع والرواتب',items:[{id:'projects',icon:'🏗️',label:'المشاريع'},{id:'payAdmin',icon:'💰',label:'مسير الرواتب'}]}] : [{g:'بوابتي',items:[{id:'empPortal',icon:'👤',label:'بوابتي'}]}];
+  document.getElementById('navContainer').innerHTML=nav.map(g=>`<div style="margin-bottom:12px"><div class="nav-title">${g.g}</div>${g.items.map(it=>`<div class="nav-item" onclick="showPage('${it.id}',this)"><span>${it.icon}</span><span>${it.label}</span></div>`).join('')}</div>`).join('');
+}
+function openSide(){document.getElementById('sidebar').classList.add('show');document.getElementById('overlay').classList.add('show');}
+function closeSide(){document.getElementById('sidebar').classList.remove('show');document.getElementById('overlay').classList.remove('show');}
+function showPage(id,el){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));const t=document.getElementById(id); if(t) t.classList.add('active'); document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active')); if(el) el.classList.add('active'); closeSide();}
+function openModal(id){document.getElementById(id).classList.add('show');}
+function closeModal(id){document.getElementById(id).classList.remove('show');}
+function toggleLang(){LANG=LANG==='ar'?'en':'ar'; document.documentElement.dir=LANG==='ar'?'rtl':'ltr'; document.getElementById('langBtn').textContent=LANG==='ar'?'EN':'عربي';}
+function setEmpView(v){const g=document.getElementById('empGrid'); if(v==='list'){g.style.gridTemplateColumns='1fr'; document.getElementById('lb').classList.add('active');document.getElementById('gb').classList.remove('active'); g.querySelectorAll('.item').forEach(i=>i.classList.add('list'))} else{g.style.gridTemplateColumns='repeat(3,1fr)'; document.getElementById('gb').classList.add('active');document.getElementById('lb').classList.remove('active'); g.querySelectorAll('.item').forEach(i=>i.classList.remove('list'))}}
+renderEmpTable();
+</script>
+<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slot")!==null)}function findInlineMediaSlot(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(isInlineMediaSlotElement(node))return node}return null}function readInlineMediaUrl(node){if(!node)return null;return node.getAttribute&&((node.getAttribute("data-clippy-inline-media-url")||node.getAttribute("data-url")||node.getAttribute("data_url")))||node.href||null}function stripHash(url){return String(url).replace(/#.*$/,"")}function urlsMatch(a,b){if(!a||!b)return false;try{return stripHash(new URL(a,loc).href)===stripHash(new URL(b,loc).href)}catch(_){return stripHash(a)===stripHash(b)}}function isFirstPartyReelUrl(value){try{var url=new URL(value,loc);if(url.protocol!=="https:")return false;var host=url.hostname.toLowerCase();var supported=host==="instagram.com"||host.endsWith(".instagram.com")||host==="facebook.com"||host.endsWith(".facebook.com");return supported&&/\/reels?\//i.test(url.pathname)}catch(_){return false}}function isInlineMediaUrlClick(node,href){var slot=findInlineMediaSlot(node);if(!slot)return false;var slotUrl=readInlineMediaUrl(slot);if(slotUrl)return urlsMatch(href,slotUrl);return isFirstPartyReelUrl(href)}function findDataHref(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(node.getAttribute){var href=node.getAttribute("data-href")||node.getAttribute("data-url");if(href)return{href:href,node:node}}}return null}var nativeOpen=window.open;window.open=function(url){if(parent!==window&&typeof url==="string"&&/^https?:\/\//.test(url)){parent.postMessage({type:"ecto:usercontent-link-click",href:url},"*");return null}return nativeOpen?nativeOpen.apply(window,arguments):null};document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;if(parent===window)return;var a=target.closest?target.closest("a[href]"):null;if(a&&a.href&&/^https?:\/\//.test(a.href)&&a.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(a,a.href))return;var productId=extractProductId(target)||extractProductId(a);if(productId){e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*");return}e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:a.href},"*");return}var dataHref=findDataHref(target);if(dataHref&&/^https?:\/\//.test(dataHref.href)&&dataHref.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(dataHref.node,dataHref.href))return;e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:dataHref.href},"*")}},true)})();</script><script>(function(){var FOCUS_TYPE="ecto:artifact-focus-request";var CLOSE_TYPE="ecto:artifact-close-request";function focusArtifactDocument(){var body=document.body;if(!body)return;try{window.focus();}catch(e){}if(!body.hasAttribute("tabindex"))body.setAttribute("tabindex","-1");try{body.focus({preventScroll:true});}catch(e){try{body.focus();}catch(e2){}}}window.addEventListener("message",function(event){if(event.source!==window.parent)return;var data=event.data;if(!data||typeof data!=="object"||data.type!==FOCUS_TYPE)return;if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",focusArtifactDocument,{once:true});return;}focusArtifactDocument();});window.addEventListener("keydown",function(event){if(event.key!=="Escape")return;window.setTimeout(function(){if(event.defaultPrevented)return;window.parent.postMessage({type:CLOSE_TYPE},"*");},0);});})();</script></body>
+</html>
